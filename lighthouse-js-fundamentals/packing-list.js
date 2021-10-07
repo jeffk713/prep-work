@@ -20,3 +20,5 @@ while (i < packingList.length) {
   console.log(packingList[i]);
   i++;
 }
+
+document.getElementById('info').content

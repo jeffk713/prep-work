@@ -1,3 +1,4 @@
+/*
 const ingredients = [
   'eggs',
   'milk',
@@ -27,3 +28,40 @@ for (let j = 0; j < ingredients.length; j++) {
 for (let k = ingredients.length - 1; k >= 0; k--) {
   console.log(ingredients[k]);
 }
+
+*/
+
+/*
+const range = (start, end, step) => {
+  if (start === undefined || end === undefined || step === undefined) return [];
+  if (start > end) return [];
+  if (step <= 0) return [];
+
+  const arr = [];
+
+  for (let i = start; i <= end; i += step) {
+    arr.push(i);
+  }
+  return arr;
+};
+
+console.log(range(10, 30, 5));
+*/
+
+/*
+const lastIndexOf = (arr, num) => {
+  let index = -1;
+  for (let i = arr.length - 1; i > -1; i--) {
+    if (num === arr[i]) {
+      index = i;
+      break;
+    }
+  }
+  return index;
+};
+console.log(lastIndexOf([0, 1], 2));
+*/
+
+const concat = (arr1, arr2) => arr1.concat(arr2);
+
+console.log(concat([33], [2, 3]));

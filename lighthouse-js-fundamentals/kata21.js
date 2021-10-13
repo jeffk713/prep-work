@@ -39,4 +39,3 @@ while (!correct) {
 
   prevAnswer = answer;
 }
-

@@ -1,3 +1,4 @@
+//kata21
 let prompt = require('prompt-sync')();
 
 const num = Math.floor(Math.random() * 30 + 1);
